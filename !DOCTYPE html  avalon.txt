@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Empire Avalon Homes - Caledonia New Homes</title>
+  <meta name="description" content="Discover Empire Avalon in Caledonia. Modern townhomes and detached homes by Empire Communities. Register now for pricing, floor plans, and VIP access.">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 font-sans text-gray-800">
+
+  <!-- Hero Section -->
+  <section class="relative bg-cover bg-center h-screen" style="background-image: url('placeholder-hero.jpg');">
+    <div class="bg-black bg-opacity-50 h-full flex flex-col justify-center items-center text-center px-4">
+      <h1 class="text-4xl md:text-6xl font-bold text-white mb-4">Live Your Best Life in Empire Avalon</h1>
+      <p class="text-lg md:text-2xl text-white mb-8">Townhomes & Detached Homes in Caledonia — Selling Now!</p>
+      <div class="flex flex-col md:flex-row gap-4">
+        <a href="#contact" class="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded">Get Pricing & Floor Plans</a>
+        <a href="#contact" class="bg-white hover:bg-gray-100 text-gray-800 font-semibold px-6 py-3 rounded">Book a VIP Appointment</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Choose Section -->
+  <section class="py-16 px-6 md:px-24 bg-white">
+    <h2 class="text-3xl font-bold text-center mb-8">Why Choose Empire Avalon?</h2>
+    <div class="grid md:grid-cols-2 gap-12">
+      <div>
+        <ul class="list-disc list-inside space-y-3 text-lg">
+          <li>Master-Planned Community with parks, trails & amenities</li>
+          <li>Ideal Location — Quick access to Hwy 6, Hwy 403, Brantford & Hamilton</li>
+          <li>Flexible Home Types — Townhomes & Detached Freehold Homes</li>
+          <li>Natural Beauty — Near the Grand River & scenic trails</li>
+        </ul>
+      </div>
+      <div>
+        <img src="placeholder-community.jpg" alt="Empire Avalon Community" class="rounded shadow-lg">
+      </div>
+    </div>
+  </section>
+
+  <!-- Homes & Pricing -->
+  <section class="py-16 px-6 md:px-24 bg-gray-100">
+    <h2 class="text-3xl font-bold text-center mb-8">Available Home Types & Starting Prices</h2>
+    <div class="grid md:grid-cols-2 gap-12 items-center">
+      <div>
+        <h3 class="text-xl font-semibold mb-4">Townhomes & Detached Homes</h3>
+        <ul class="list-disc list-inside space-y-2 text-lg">
+          <li>3 – 4 Bedrooms</li>
+          <li>2.5 – 3.5 Bathrooms</li>
+          <li>Approx. 1,446 – 2,837 sq. ft.</li>
+          <li>Starting from $564,990+</li>
+        </ul>
+        <p class="mt-4 text-gray-700">Prices subject to change — register for current pricing.</p>
+        <a href="#contact" class="mt-4 inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded">See Floor Plans & Pricing</a>
+      </div>
+      <div>
+        <img src="placeholder-homes.jpg" alt="Empire Avalon Homes" class="rounded shadow-lg">
+      </div>
+    </div>
+  </section>
+
+  <!-- Lifestyle Section -->
+  <section class="py-16 px-6 md:px-24 bg-white">
+    <h2 class="text-3xl font-bold text-center mb-8">Designed for Family Living & Lifestyle</h2>
+    <div class="grid md:grid-cols-3 gap-8 text-center">
+      <div class="bg-gray-50 p-6 rounded shadow">
+        <h3 class="font-semibold mb-2">Spacious Homes</h3>
+        <p>Perfect for families with modern layouts and plenty of room to grow.</p>
+      </div>
+      <div class="bg-gray-50 p-6 rounded shadow">
+        <h3 class="font-semibold mb-2">Parks & Trails</h3>
+        <p>Walking paths, playgrounds, and recreational areas for everyone to enjoy.</p>
+      </div>
+      <div class="bg-gray-50 p-6 rounded shadow">
+        <h3 class="font-semibold mb-2">Convenience</h3>
+        <p>Close to shopping, restaurants, and essential services.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lead Capture -->
+  <section id="contact" class="py-16 px-6 md:px-24 bg-blue-50">
+    <h2 class="text-3xl font-bold text-center mb-8">Get Your FREE Info Pack</h2>
+    <p class="text-center mb-8 text-lg">Floor Plans, Current Pricing, Incentives & Deposit Structure</p>
+    <form class="max-w-xl mx-auto bg-white p-8 rounded shadow-lg grid gap-4">
+      <input type="text" placeholder="Name" class="border px-4 py-2 rounded focus:outline-none focus:ring-2 focus:ring-blue-600">
+      <input type="email" placeholder="Email" class="border px-4 py-2 rounded focus:outline-none focus:ring-2 focus:ring-blue-600">
+      <input type="tel" placeholder="Phone" class="border px-4 py-2 rounded focus:outline-none focus:ring-2 focus:ring-blue-600">
+      <select class="border px-4 py-2 rounded focus:outline-none focus:ring-2 focus:ring-blue-600">
+        <option value="">What are you looking for?</option>
+        <option value="townhome">Townhome</option>
+        <option value="detached">Detached Home</option>
+      </select>
+      <button type="submit" class="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded mt-2">Get VIP Access</button>
+    </form>
+  </section>
+
+  <!-- About & Footer -->
+  <section class="py-16 px-6 md:px-24 bg-white">
+    <h2 class="text-3xl font-bold text-center mb-8">About Empire Communities</h2>
+    <p class="max-w-2xl mx-auto text-center text-lg mb-4">Empire Communities has been building new homes and master-planned communities with quality and innovation across Ontario and North America for decades.</p>
+    <p class="text-center text-gray-700">Your Empire Avalon Specialists: <br> Phone: (555) 123-4567 | Email: info@yourteam.com</p>
+  </section>
+
+</body>
+</html>
